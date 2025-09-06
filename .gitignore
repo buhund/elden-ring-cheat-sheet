@@ -1,0 +1,42 @@
+# JetBrains IDE project files
+.idea/
+
+# OS-specific junk files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Linux / KDE / Editor temp files
+*~              # Common backup files
+*.kate-swp      # Kate swap files
+*.swp           # Vim swap files
+*.tmp
+*.temp
+.kate-swp       # Kate session dir if it appears
+.kateconfig     # Kate project config
+*.bak
+*.backup
+*.old
+
+# Node-related (if used)
+node_modules/
+
+# PHP Composer (if used)
+vendor/
+
+# PHP cache / logs
+*.log
+*.cache
+
+# Compiled or temporary files
+*.sass-cache
+*.map
+
+# Environment files
+.env
+.env.local
+
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
